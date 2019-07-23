@@ -1,0 +1,93 @@
+#logo {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+
+nav {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20pt;
+    text-align: center
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+#bikes li {
+    list-style: none;
+    position: relative;
+    background: rgb(255, 254, 254, .7);
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgb(39, 39, 39);
+    transition: transform 200ms ease-in-out;
+}
+
+#bikes {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+#bikes li:hover {
+    box-shadow: 2px 2px 3px #bbb;
+    transform: translate3d(-1px, -1px, 0);
+}
+
+#bikes li h3 {
+    font-size: 1.1rem;
+    margin: 5px;
+}
+
+#bikes li img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price button {
+    transition: color 200ms ease-in-out;
+}
+.price button:hover {
+    background: #aaa;
+    color: white;
+}
+
+body {
+    background: url(/assets/camp\ ground.jpg);
+    background-size: 1700px 900px;
+}
+
+a {
+    color: black;
+}
