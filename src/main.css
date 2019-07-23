@@ -1,6 +1,6 @@
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30pt;
+    font-size: 20pt;
     text-align: center
 }
 
@@ -17,7 +17,7 @@ nav {
 
 body {
     background: url(/assets/20180821-\ Hoh\ Rainforest48e-3.jpg);
-    background-size: 2100px 1200px;
+    background-size: 1700px 980px;
 }
 
 a {
