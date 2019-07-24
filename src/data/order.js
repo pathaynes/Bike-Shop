@@ -1,24 +1,12 @@
-const cart = [{ 
-    code: 'mtBike'
-    quantity: 2
-} , {
-    code: 'dirtJumper',
-    quantity: 3
-} , {
-    code: 'hardTail',
-    quantity: 4
-} , {
-    code: 'roadBike',
-    quantity: 5
-} , {
-    code: 'cruiser',
-    quantity: 6
-} , {
-    code: 'eBike',
-    quantity: 7
-} , {
-    code: 'hardFrame',
-    quantity: 8
-}];
+const cart = [
+    { 
+        code: 'mt-bike',
+        quantity: 1
+    }, 
+    {
+        code: 'dirt-jumper',
+        quantity: 1
+    }
+];
 
 export default cart;
