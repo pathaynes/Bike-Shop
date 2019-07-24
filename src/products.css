@@ -19,7 +19,6 @@ h2 {
     color: white;
     margin-top: 70px;
     font-size: 50px;
-    text-decoration: underline;
 }
 
 h3 {
@@ -59,7 +58,7 @@ h3 {
 }
 
 #bikes li img {
-    width: 50%;
+    width: 90%;
     margin-top: 10px;
 }
 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/src/shopping-cart.css"> 
+</head>
+<body>
+    <header>
+            <nav>
+                    <a href="/index.html">HOME</a>
+                    <a href="/products.html">PRODUCTS</a>
+                    <a href="/shopping-cart.html">CART</a>
+            </nav>
+            <img id="logo" src="/assets/bike shop logo black.png" alt="">
+        <h1>YOUR CART</h1> 
+
+    </header>
+
+    <main>
+        <table class="center">
+              <thead>
+                 <tr>
+                   <th class="align-left">BIKE</th>
+                   <th>QTY</th>
+                   <th>PRICE</th>
+                   <th>TOTAL</th>
+                 </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Mt Bike</td>
+                    <td>2</td>
+                    <td>$2,000</td>
+                    <td>$4,000</td>
+                </tr>
+                <tr>
+                        <td>Cruiser</td>
+                        <td>1</td>
+                        <td>$2,000</td>
+                        <td>$2,000</td>
+                 </tr>
+                 <tr>
+                        <td>Hard Tail</td>
+                        <td>5</td>
+                        <td>$500</td>
+                        <td>$2,500</td>
+                </tr>
+                <tr>
+                        <td>Road Bike</td>
+                        <td>1</td>
+                        <td>$4,000</td>
+                        <td>$4,000</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                 <tr id="order">
+                     <th></th>
+                     <th></th>
+                     <th>ORDER TOTAL:</th>
+                    <th id="order-amount">$3,000.00</th>
+                </tr>
+            </tfoot>
+        </table>
+        <p class="place-order">
+                <button>Place Order</button>
+        </p>
+    </main>
+</body>
+</html>
