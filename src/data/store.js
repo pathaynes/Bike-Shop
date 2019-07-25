@@ -33,6 +33,7 @@ const store = {
         let shoppingCart = store.get(SHOPPING_CART_KEY);
         if(!shoppingCart) {
             shoppingCart = [];
+            store.save(SHOPPING_CART_KEY, shoppingCart);
         }
         return shoppingCart;
     },
@@ -42,11 +43,9 @@ const store = {
         const lineItem = findProduct(shoppingCart, code);
         
         if(lineItem) {
-
             lineItem.quantity++;
         }
         else {
-       
             const lineItem = {
                 code: code,
                 quantity: 1

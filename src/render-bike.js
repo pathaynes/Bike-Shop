@@ -1,3 +1,5 @@
+import store from './data/store.js';
+
 function renderBike(bike) {
     const li = document.createElement('li');
     li.className = bike.category;
@@ -22,6 +24,10 @@ function renderBike(bike) {
     const button = document.createElement('button');
     button.textContent = 'Add';
     button.value = bike.code;
+    button.addEventListener('click', () => {
+        store.orderProduct(bike.code);
+    });
+
     p.appendChild(button);
 
     li.appendChild(p);

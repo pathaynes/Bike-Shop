@@ -1,11 +1,11 @@
 const cart = [
     { 
         code: 'mt-bike',
-        quantity: 9
+        quantity: 1
     }, 
     {
         code: 'dirt-jumper',
-        quantity: 4
+        quantity: 1
     }
 ];
 
