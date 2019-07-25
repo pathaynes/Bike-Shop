@@ -2,15 +2,23 @@
     width: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 130px;
     display: block;
 }
 
 nav {
-    text-align: center;
+    text-align: right;
+    padding: 30px;
+}
+
+h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20pt;
-    text-align: center
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(250, 250, 250, .5);
 }
 
 h2 {
@@ -28,7 +36,7 @@ h3 {
 #bikes li {
     list-style: none;
     position: relative;
-    background: rgb(255, 254, 254, .7);
+    background: rgb(255, 254, 254, .9);
     border: 1px solid rgb(39, 39, 39);
     border-radius: 10px;
     width: 150px;
@@ -88,5 +96,6 @@ body {
 }
 
 a {
-    color: black;
+    color: rgb(0, 0, 0, .6);
+    padding: 20px;
 }
