@@ -26,32 +26,35 @@ test('basic get and save', assert => {
 });
 
 test('get products returns bootstrapped data', (assert) => {
-    // act
     const products = store.getProducts();
 
-    // assert
     assert.deepEqual(products, bikes);
 });
 
 test('get shopping cart returns empty array when non-existent', (assert) => {
-    // act
     const shoppingCart = store.getShoppingCart();
 
-    // assert
     assert.deepEqual(shoppingCart, []);
 });
+
 test('order product adds item to shopping cart', (assert) => {
-    // arrange
     const code = 'mt-bike';
     const expected = [{
         code: 'mt-bike',
         quantity: 1
     }];
 
-    // act
     store.orderProduct(code);
     const shoppingCart = store.getShoppingCart();
 
-    // assert
     assert.deepEqual(shoppingCart, expected);
+});
+
+test('get a product by code', (assert) => {
+    const code = 'mt-bike';
+    const expected = bikes[0];
+
+    const bike = store.getProduct(code);
+
+    assert.deepEqual(bike, expected);
 });
