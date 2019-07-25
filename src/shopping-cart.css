@@ -1,0 +1,108 @@
+table, .place-order {
+    width: 100%;
+    max-width: 500px;
+}
+
+.place-order {
+    text-align: right;
+}
+
+.place-order button {
+    margin-top: 40px;
+    box-shadow: 2px 2px 40px;
+    height: 50px;
+    width: 140px;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    background: rgb(40, 145, 74, .2);
+    color: rgb(238, 234, 234);
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+tbody {
+    background: rgb(255, 255, 255);
+}
+
+tbody tr:nth-child(even) {
+    background: rgb(255, 254, 189);
+}
+
+tbody tr:nth-child(odd) {
+    background: rgb(255, 255, 217);
+}
+
+
+tbody td {
+    font-size: 0.9rem;
+}
+
+thead {
+    background: rgb(40, 145, 74);
+    color:white;
+}
+
+table th, table td {
+    text-align: right;
+    padding: 10px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+h1 {
+   font-size: 30px;
+   text-align: center ;
+   margin-right: 300px;
+   margin-bottom: 2px;
+}
+
+table {
+    width: 100%;
+    max-width: 500px;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+tbody {
+    background: white;
+}
+
+nav {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20pt;
+    text-align: center
+}
+
+a {
+    color:black;
+}
+
+#logo {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+
+p.place-order {
+    margin: auto;
+}
+
+body {
+    background: url(/assets/camp\ ground.jpg);
+    background-size: 1700px 900px;
+}
+
+#order {
+    color: white;
+    background-color: rgba(42, 62, 36, 0.6)
+}
