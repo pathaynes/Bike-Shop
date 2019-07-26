@@ -2,7 +2,7 @@
 import bikes from './data/bikes.js';
 import cart from './data/order.js';
 import renderCart from './render-cart.js';
-import { findProduct, getOrderTotal } from './register.js';
+import { findProduct } from './register.js';
 
 const table = document.getElementById('shopping-cart');
 
