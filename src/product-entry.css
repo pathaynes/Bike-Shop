@@ -39,7 +39,7 @@ p {
 }
 
 #lines {
-   margin-top: 150px;
+   margin-top: 60px;
 }
 
 div {
@@ -47,9 +47,16 @@ div {
 }
 
 form {
-    margin-left: 80px;
+    margin-left: 10px;
     margin-right: auto;
-    margin-top: 50px;
     display: inline-block;
     text-align: left;
+    border: dashed;
+    border-width: 10px;
+    padding-right: 30px;
+    padding-left: 90px;
+}
+
+#space1 {
+    padding: 1px;
 }

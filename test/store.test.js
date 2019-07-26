@@ -58,3 +58,20 @@ test('get a product by code', (assert) => {
 
     assert.deepEqual(bike, expected);
 });
+
+test('add new product', (assert) => {
+
+    const product = {
+        code: 'bmx-bike',
+        name:'BMX Bike',
+        image: 'bmx-bike.png',
+        category: 'freestyle',
+        price: '200',
+        description: 'small bike for getting radical',
+    };
+
+    store.addProduct(product);
+    const bikes = store.getProducts();
+
+    assert.deepEqual(bikes[bikes.length - 1], product);
+});
