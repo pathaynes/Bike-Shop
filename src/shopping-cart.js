@@ -1,15 +1,17 @@
 
 import bikes from './data/bikes.js';
-import cart from './data/order.js';
+import store from './data/store.js';
 import renderCart from './render-cart.js';
 import { findProduct } from './register.js';
 
 const table = document.getElementById('shopping-cart');
+const shoppingCart = store.getShoppingCart();
+console.log(shoppingCart);
 
-//loop through the cart
-for(let i = 0; i < cart.length; i++) {
+
+for(let i = 0; i < shoppingCart.length; i++) {
     //match inventory with cart
-    const cartItem = cart[i];
+    const cartItem = shoppingCart[i];
     const cartBike = findProduct(bikes, cartItem.code);
     //render table row with matched items
     const pasteItem = renderCart(cartItem, cartBike);
