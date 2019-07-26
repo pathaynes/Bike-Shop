@@ -2,6 +2,7 @@ import { getLineTotal } from '../src/register.js';
 
 
 function renderCart(lineItem, bike) {
+    console.log(bike);
     const line = document.createElement('tr');
     const tdName = document.createElement('td');
     tdName.textContent = bike.name;
