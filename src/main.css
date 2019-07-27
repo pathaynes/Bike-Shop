@@ -22,8 +22,9 @@ nav {
 }
 
 body {
-    background: url(/assets/20180821-\ Hoh\ Rainforest48e-3.jpg);
-    background-size: 1700px 980px;
+    background-image: url(/assets/20180821-\ Hoh\ Rainforest48e-3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 a {

@@ -92,7 +92,8 @@ h3 {
 
 body {
     background: url(/assets/camp\ ground.jpg);
-    background-size: 1700px 900px;
+    background-attachment: auto;
+    background-size: 2000px 950px; 
 }
 
 a {
