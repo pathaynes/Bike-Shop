@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Entry</title>
+    <link rel="stylesheet" href="./src/product-entry.css">
+</head>
+<body>
+    <header>
+        <h1>
+        <nav>
+            <a href="/index.html">HOME</a>
+            <a href="/products.html">PRODUCTS</a>
+            <a href="/shopping-cart.html">CART</a>
+            <a href="/product-entry.html">NEW PRODUCTS</a>
+        </nav>
+        </h1>
+    <img id="logo" src="/assets/bike shop logo black.png" alt="">
+    </header>
+    <main>
+        <div>
+        <h2>ADD NEW BIKE TO INVENTORY</h2>
+        <form id="product-form">
+                <div id="space1"></div>
+            <p>
+                <label for="code">Code:</label>
+                <input id="code" required name="code" type="text">
+            </p>
+            <div id="space1"></div>
+            <p>
+                <label for="name">Name:</label>
+                <input id="name" required name="name" type="text">
+            </p>
+            <div id="space1"></div>
+            <p>
+                <label for="image">Image:</label>
+                <input for="image" required name="image" type="file">
+            </p>
+            <div id="space1"></div>
+            <p>
+                <label for="category">Category:</label>
+                <input type="category" required name="category" type="text">
+            </p>
+            <div id="space1"></div>
+            <p>
+                <label for="price">Price:</label>
+                <input id="price" required name="price" type="number" step=".01">
+            </p>
+            <div id="space1"></div>
+            <p>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+            </p>
+            <div id="space1"></div>
+            <button>ADD BIKE</button>
+        </form>
+                <p>
+                
+                </p>
+    </div>
+        <div id="lines">
+            <hr>
+            <hr>
+        </div>
+    </main>
+
+    <script src="src/product-entry.js" type="module"></script>
+</body>
+</html>

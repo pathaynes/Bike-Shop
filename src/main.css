@@ -1,11 +1,16 @@
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20pt;
-    text-align: center
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(250, 250, 250, .5);
 }
 
 nav {
-    text-align: center;
+    text-align: right;
+    padding: 30px;
 }
 
 #logo-main {
@@ -13,6 +18,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 100px;
 }
 
 body {
@@ -21,5 +27,6 @@ body {
 }
 
 a {
-    color: white;
+    color: rgb(0, 0, 0, .6);
+    padding: 20px;
 }
